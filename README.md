@@ -14,4 +14,4 @@ We will explore various machine learning algorithms, such as Neural Network, Gra
 will be split into training and testing sets to evaluate the performance of each model and select the most suitable one.
 
 
-![Machine Learning Model]()]
+![Machine Learning Model](https://github.com/GayanMeerigama/Personal-Loan-Approval-Machine-Learning/blob/main/Image%209-2-23%20at%202.05%20PM.jpg)]
