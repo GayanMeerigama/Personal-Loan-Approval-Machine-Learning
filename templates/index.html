@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Apply for a Personal Loan Today!</title>
+  <style> 
+      button[type=submit] {
+        background-color: #62529c;
+        border: none;
+        color: #fff;
+        padding: 15px 30px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+    .parent {
+      position: relative;
+    }
+    .text-block {
+      display: block;
+      position: absolute;
+      bottom: 50px;
+      left: 20px;
+      background-color: #000;
+      opacity: .6;
+      color: white;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .parent img {
+      width: 100%;
+    }
+    input[type=text] {
+  width: 10%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  text-align:end ;
+}
+html {
+background: url(https://cdn1.startingbusiness.com/blog/uploads/article/55/user-241-2016-12-06-20-31-32.jpg) no-repeat center center fixed;
+background-size: cover;
+height: 100%;
+overflow: hidden;
+}
+h1 {
+font-size: 64px;
+color: #0e916c;  
+line-height: 0.9;
+text-align: center;
+}
+h2 {
+font-size: 64px;
+color: #1ca13b;  
+line-height: 0.9;
+}
+label {
+  font-size: 32px;
+  color: Lime;
+}
+.text-right{
+    text-align: left;
+}
+  </style>
+
+
+</head>
+
+<body>
+ <div>
+    <h1>Apply for a Personal Loan Today!</h1>
+
+    <form action="{{ url_for('predict')}}"method="post">
+
+        <label for="fname">Credit Score:</label>
+        <input type="text" class="text-right" name="CreditScore" placeholder="Credit Score" required="required" /><br><br>
+        <label for="fname">Age:</label>
+        <input type="text" class="text-right" name="Age" placeholder="Age" required="required" /><br><br>
+        <label for="fname">Tenure:</label>
+        <input type="text" class="text-right" name="Tenure" placeholder="Tenure" required="required" /><br><br>
+        <label for="fname">Balance:</label>
+        <input type="text" name="Balance" placeholder="Balance" required="required" /><br><br>
+        <label for="fname">Num Of Products:</label>
+        <input type="text" name="NumOfProducts" placeholder="Num Of Products" required="required" /><br><br>
+        <label for="fname">Has Credit Card:</label>
+        <input type="text" name="Has Credit Card" placeholder="Has Credit Card" required="required" /><br><br>
+        <label for="fname">Is Active Member:</label>
+        <input type="text" name="IsActiveMember" placeholder="Is Active Member" required="required" /><br><br>
+        <label for="fname">Estimated Salary:</label>
+        <input type="text" name="EstimatedSalary" placeholder="Estimated Salary" required="required" />
+
+        <button type="submit" class="btn">Submit now</button>
+    </form>
+
+   <br>
+   <br>
+   <div id ="prediction_text">
+    <h1> {{ prediction_text }}</h1>
+  </div>
+
+ </div>
+
+</body>
+</html>
+
