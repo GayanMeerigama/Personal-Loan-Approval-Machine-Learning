@@ -12,3 +12,6 @@ to make informed decisions.
 # Machine Learning Algorithms:
 We will explore various machine learning algorithms, such as Neural Network, Gradient Boosting Machines, random forests and XGBoost,, to develop a predictive model. The dataset
 will be split into training and testing sets to evaluate the performance of each model and select the most suitable one.
+
+
+![Machine Learning Model]()]
