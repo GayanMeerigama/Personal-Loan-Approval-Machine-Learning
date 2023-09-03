@@ -1,5 +1,5 @@
 # Predictive Model for Personal Loan Approval Using Machine Learning
-
+![Machine Learning Model]()]
 # Background:
 The financial industry is constantly evolving, and one of the key areas where technology can have a significant impact is in the process of personal loan approvals. Traditional 
 methods of assessing an individual's eligibility for a personal loan often rely heavily on manual assessments, which can be time-consuming, error-prone, and may not utilize 
