@@ -14,7 +14,7 @@ We will explore various machine learning algorithms, such as Neural Network, Gra
 will be split into training and testing sets to evaluate the performance of each model and select the most suitable one.
 
 # Data Set 
-To determine eligibility for a personal loan based on the dataset with columns Credit Score, Age, Tenure(Tenure reflects the length of the applicant's relationship with a particular financial institution), Balance, Num Of Products(The products they own.), Has Credit Card, Is Active Member, and Estimated Salary, you can use these columns to assess the creditworthiness and financial capability of applicants. Here's how each column can be used in the context of evaluating eligibility for a personal loan:
+The dataset is the details of the customers in a company. from the Kaggle competition.To determine eligibility for a personal loan based on the dataset with columns Credit Score, Age, Tenure(Tenure reflects the length of the applicant's relationship with a particular financial institution), Balance, Num Of Products(The products they own.), Has Credit Card, Is Active Member, and Estimated Salary, you can use these columns to assess the creditworthiness and financial capability of applicants. Here's how each column can be used in the context of evaluating eligibility for a personal loan:
 
 
 
